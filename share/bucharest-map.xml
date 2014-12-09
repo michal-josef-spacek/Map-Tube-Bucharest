@@ -1,0 +1,62 @@
+<tube name="Metroul din București">
+  <!-- https://ro.wikipedia.org/wiki/Metroul_din_București -->
+  <stations>
+    <!-- Junctions -->
+    <station id="PIAȚA_VICTORIEI" name="Piața Victoriei" line="Linia M1,Linia M2" link="M1-05,M1-07,M2-03,M2-05"/>
+    <station id="BASARAB" name="Basarab" line="Linia M1,Linia M4" link="M1-07,M1-09,M4-01,M4-03"/>
+    <station id="EROILOR" name="Eroilor" line="Linia M1,Linia M3" link="M1-11,IZVOR,M3-05,IZVOR"/>
+    <station id="PIAȚA_UNIRII_1" name="Piața Unirii 1" line="Linia M1,Linia M3" link="IZVOR,TIMPURI_NOI,IZVOR,TIMPURI_NOI"/>
+    <station id="NICOLAE_GRIGORESCU" name="Nicolae Grigorescu" line="Linia M1,Linia M3" link="DRISTOR_1,M1-19,DRISTOR_1,M3-13"/>
+    <station id="IZVOR" name="Izvor" line="Linia M1,Linia M3" link="EROILOR,PIAȚA_UNIRII_1"/>
+    <station id="TIMPURI_NOI" name="Timpuri Noi" line="Linia M1,Linia M3" link="PIAȚA_UNIRII_1,MIHAI_BRAVU"/>
+    <station id="MIHAI_BRAVU" name="Mihai Bravu" line="Linia M1,Linia M3" link="TIMPURI_NOI,DRISTOR_1,DRISTOR_1"/>
+    <station id="DRISTOR_1" name="Dristor 1" line="Linia M1,Linia M3" link="MIHAI_BRAVU,NICOLAE_GRIGORESCU,M1-01"/>
+
+    <!-- https://ro.wikipedia.org/wiki/Linia_M1_a_metroului_din_București -->
+    <station id="M1-01" name="Dristor 2" line="Linia M1" link="M1-02"/>
+    <station id="M1-02" name="Piața Muncii" line="Linia M1" link="M1-01,M1-03"/>
+    <station id="M1-03" name="Iancului" line="Linia M1" link="M1-02,M1-04"/>
+    <station id="M1-04" name="Obor" line="Linia M1" link="M1-03,M1-05"/>
+    <station id="M1-05" name="Ștefan cel Mare" line="Linia M1" link="M1-04,PIAȚA_VICTORIEI"/>
+    <station id="M1-07" name="Gara de Nord" line="Linia M1" link="PIAȚA_VICTORIEI,BASARAB"/>
+    <station id="M1-09" name="Crângași" line="Linia M1" link="BASARAB,M1-10"/>
+    <station id="M1-10" name="Petrache Poenaru" line="Linia M1" link="M1-09,M1-11"/>
+    <station id="M1-11" name="Grozăvești" line="Linia M1" link="M1-10,EROILOR"/>
+    <station id="M1-19" name="Titan" line="Linia M1" link="NICOLAE_GRIGORESCU,M1-20"/>
+    <station id="M1-20" name="Costin Georgian" line="Linia M1" link="M1-19,M1-21"/>
+    <station id="M1-21" name="Republica" line="Linia M1" link="M1-20,M1-22"/>
+    <station id="M1-22" name="Pantelimon" line="Linia M1" link="M1-21"/>
+
+    <!-- https://ro.wikipedia.org/wiki/Linia_M2_a_metroului_din_București -->
+    <station id="M2-01" name="Pipera" line="Linia M2" link="M2-02"/>
+    <station id="M2-02" name="Aurel Vlaicu" line="Linia M2" link="M2-01,M2-03"/>
+    <station id="M2-03" name="Aviatorilor" line="Linia M2" link="M2-02,PIAȚA_VICTORIEI"/>
+    <station id="M2-05" name="Piața Romană" line="Linia M2" link="PIAȚA_VICTORIEI,M2-06"/>
+    <station id="M2-06" name="Universitate" line="Linia M2" link="M2-05,M2-07"/>
+    <station id="M2-07" name="Piața Unirii 2" line="Linia M2" link="M2-06,M2-08,PIAȚA_UNIRII_1"/>
+    <station id="M2-08" name="Tineretului" line="Linia M2" link="M2-07,M2-09"/>
+    <station id="M2-09" name="Eroii Revoluției" line="Linia M2" link="M2-08,M2-10"/>
+    <station id="M2-10" name="Constantin Brâncoveanu" line="Linia M2" link="M2-09,M2-11"/>
+    <station id="M2-11" name="Piața Sudului" line="Linia M2" link="M2-10,M2-12"/>
+    <station id="M2-12" name="Apărătorii Patriei" line="Linia M2" link="M2-11,M2-13"/>
+    <station id="M2-13" name="Dimitrie Leonida" line="Linia M2" link="M2-12,M2-14"/>
+    <station id="M2-14" name="Berceni" line="Linia M2" link="M2-13"/>
+
+    <!-- https://ro.wikipedia.org/wiki/Linia_M3_a_metroului_din_București -->
+    <station id="M3-01" name="Preciziei" line="Linia M3" link="M3-02"/>
+    <station id="M3-02" name="Păcii" line="Linia M3" link="M3-01,M3-03"/>
+    <station id="M3-03" name="Gorjului" line="Linia M3" link="M3-02,M3-04"/>
+    <station id="M3-04" name="Lujerului" line="Linia M3" link="M3-03,M3-05"/>
+    <station id="M3-05" name="Politehnica" line="Linia M3" link="M3-04,EROILOR"/>
+    <station id="M3-13" name="1 Decembrie 1918" line="Linia M3" link="NICOLAE_GRIGORESCU,M3-14"/>
+    <station id="M3-14" name="Nicolae Teclu" line="Linia M3" link="M3-13,M3-15"/>
+    <station id="M3-15" name="Anghel Saligny" line="Linia M3" link="M3-14"/>
+
+    <!-- https://ro.wikipedia.org/wiki/Linia_M4_a_metroului_din_București -->
+    <station id="M4-01" name="Gara de Nord 2" line="Linia M4" link="BASARAB"/>
+    <station id="M4-03" name="Grivița" line="Linia M4" link="BASARAB,M4-04"/>
+    <station id="M4-04" name="1 Mai" line="Linia M4" link="M4-03,M4-05"/>
+    <station id="M4-05" name="Jiului" line="Linia M4" link="M4-04,M4-06"/>
+    <station id="M4-06" name="Parc Bazilescu" line="Linia M4" link="M4-05"/>
+  </stations>
+</tube>
