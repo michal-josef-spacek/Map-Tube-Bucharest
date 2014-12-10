@@ -19,6 +19,7 @@ MANIFEST			This list of files
 META.yml
 README
 share/bucharest-map.xml
+SIGNATURE
 t/Map-Tube-Bucharest/00-use.t
 t/Map-Tube-Bucharest/01-version.t
 t/Map-Tube-Bucharest/02-pod_coverage.t
