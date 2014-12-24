@@ -1,4 +1,9 @@
 0.02
+ - Add Map::Tube::GraphViz, Map::Tube::Text::Table,
+   Map::Tube::Dnipropetrovsk, Map::Tube::Kazan, Map::Tube::Novosibirsk,
+   Map::Tube::Prague, Map::Tube::SaintPetersburg, Map::Tube::Tbilisi,
+   Map::Tube::Vienna and Map::Tube::Yekaterinburg> to SEE ALSO section in
+   doc.
  - Add get_lines() method to doc.
  - Add get_stations() method to doc.
  - Remove executable bit from bucharest-map.xml file.
