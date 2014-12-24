@@ -147,6 +147,44 @@ For more information about Bucharest Map, click L<here|https://en.wikipedia.org/
  # Output like:
  # XML file: .*/bucharest-map.xml
 
+=head1 EXAMPLE3
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Map::Tube::GraphViz;
+ use Map::Tube::GraphViz::Utils qw(node_color_without_label);
+ use Map::Tube::Bucharest;
+
+ # Object.
+ my $obj = Map::Tube::Bucharest->new;
+
+ # GraphViz object.
+ my $g = Map::Tube::GraphViz->new(
+	 'callback_node' => \&node_color_without_label,
+	 'driver' => 'neato',
+	 'tube' => $obj,
+ ); 
+
+ # Get graph to file.
+ $g->graph('Bucharest.png');
+
+ # Print file.
+ system "ls -l Bucharest.png";
+
+ # Output like:
+ # -rw-r--r-- 1 skim skim 151426 Dec 24 12:03 Bucharest.png
+
+=begin html
+
+<a href="https://raw.githubusercontent.com/tupinek/Map-Tube-Bucharest/master/images/ex3.png">
+  <img src="https://raw.githubusercontent.com/tupinek/Map-Tube-Bucharest/master/images/ex3.png" alt="Metroul din București" width="300px" height="300px" />
+</a>
+
+=end html
+
 =head1 DEPENDENCIES
 
 L<File::Share>,
