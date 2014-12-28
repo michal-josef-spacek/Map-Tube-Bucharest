@@ -166,7 +166,7 @@ For more information about Bucharest Map, click L<here|https://en.wikipedia.org/
 	 'callback_node' => \&node_color_without_label,
 	 'driver' => 'neato',
 	 'tube' => $obj,
- ); 
+ );
 
  # Get graph to file.
  $g->graph('Bucharest.png');
