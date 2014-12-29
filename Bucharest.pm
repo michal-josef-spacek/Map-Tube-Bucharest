@@ -201,6 +201,7 @@ L<Task::Map::Tube>.
 
 L<Map::Tube::Barcelona>,
 L<Map::Tube::Berlin>,
+L<Map::Tube::Budapest>,
 L<Map::Tube::Delhi>,
 L<Map::Tube::Dnipropetrovsk>,
 L<Map::Tube::Kazan>,
