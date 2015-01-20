@@ -4,12 +4,12 @@
     <!-- Junctions -->
     <station id="PIAȚA_VICTORIEI" name="Piața Victoriei" line="Linia M1,Linia M2" link="M1-05,M1-07,M2-03,M2-05"/>
     <station id="BASARAB" name="Basarab" line="Linia M1,Linia M4" link="M1-07,M1-09,M4-01,M4-03"/>
-    <station id="EROILOR" name="Eroilor" line="Linia M1,Linia M3" link="M1-11,IZVOR,M3-05,IZVOR"/>
-    <station id="PIAȚA_UNIRII_1" name="Piața Unirii 1" line="Linia M1,Linia M3" link="IZVOR,TIMPURI_NOI,IZVOR,TIMPURI_NOI"/>
-    <station id="NICOLAE_GRIGORESCU" name="Nicolae Grigorescu" line="Linia M1,Linia M3" link="DRISTOR_1,M1-19,DRISTOR_1,M3-13"/>
+    <station id="EROILOR" name="Eroilor" line="Linia M1,Linia M3" link="M1-11,IZVOR,M3-05"/>
+    <station id="PIAȚA_UNIRII_1" name="Piața Unirii 1" line="Linia M1,Linia M3" link="IZVOR,TIMPURI_NOI"/>
+    <station id="NICOLAE_GRIGORESCU" name="Nicolae Grigorescu" line="Linia M1,Linia M3" link="DRISTOR_1,M1-19,M3-13"/>
     <station id="IZVOR" name="Izvor" line="Linia M1,Linia M3" link="EROILOR,PIAȚA_UNIRII_1"/>
     <station id="TIMPURI_NOI" name="Timpuri Noi" line="Linia M1,Linia M3" link="PIAȚA_UNIRII_1,MIHAI_BRAVU"/>
-    <station id="MIHAI_BRAVU" name="Mihai Bravu" line="Linia M1,Linia M3" link="TIMPURI_NOI,DRISTOR_1,DRISTOR_1"/>
+    <station id="MIHAI_BRAVU" name="Mihai Bravu" line="Linia M1,Linia M3" link="TIMPURI_NOI,DRISTOR_1"/>
     <station id="DRISTOR_1" name="Dristor 1" line="Linia M1,Linia M3" link="MIHAI_BRAVU,NICOLAE_GRIGORESCU,M1-01"/>
 
     <!-- https://ro.wikipedia.org/wiki/Linia_M1_a_metroului_din_București -->

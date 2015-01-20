@@ -3,6 +3,7 @@
  - Add Map::Tube::Graph to SEE ALSO section in doc.
  - Add Map::Tube::Nanjing to SEE ALSO section in doc.
  - Add Task::Map::Tube to SEE ALSO section in doc.
+ - Fix XML map (duplicite links).
  - Update copyright years to 2015.
 
 0.02 2014-12-26T18:50:38+01:00
