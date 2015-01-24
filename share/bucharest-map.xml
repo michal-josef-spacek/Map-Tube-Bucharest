@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tube name="Metroul din București">
   <!-- https://ro.wikipedia.org/wiki/Metroul_din_București -->
+  <lines>
+    <line id="M1" name="Linia M1" color="yellow"/>
+    <line id="M2" name="Linia M2" color="blue"/>
+    <line id="M3" name="Linia M3" color="red"/>
+    <line id="M4" name="Linia M4" color="green"/>
+  </lines>
   <stations>
     <!-- Junctions -->
     <station id="PIAȚA_VICTORIEI" name="Piața Victoriei" line="Linia M1,Linia M2" link="M1-05,M1-07,M2-03,M2-05"/>
