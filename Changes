@@ -1,4 +1,5 @@
 0.04
+ - Add <?xml> header to XML document.
 
 0.03 2015-01-20T07:34:18+01:00
  - Add Map::Tube::Budapest to SEE ALSO section in doc.
