@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- https://ro.wikipedia.org/wiki/Metroul_din_București -->
 <tube name="Metroul din București">
-  <!-- https://ro.wikipedia.org/wiki/Metroul_din_București -->
   <lines>
     <line id="M1" name="Linia M1" color="yellow"/>
     <line id="M2" name="Linia M2" color="blue"/>
