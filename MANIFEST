@@ -26,6 +26,7 @@ t/Map-Tube-Bucharest/00-use.t
 t/Map-Tube-Bucharest/01-version.t
 t/Map-Tube-Bucharest/02-pod_coverage.t
 t/Map-Tube-Bucharest/03-pod.t
-t/Map-Tube-Bucharest/04-get_shortest_route.t
-t/Map-Tube-Bucharest/05-name.t
-t/Map-Tube-Bucharest/06-xml.t
+t/Map-Tube-Bucharest/04-map.t
+t/Map-Tube-Bucharest/05-get_shortest_route.t
+t/Map-Tube-Bucharest/06-name.t
+t/Map-Tube-Bucharest/07-xml.t
