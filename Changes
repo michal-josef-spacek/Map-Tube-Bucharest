@@ -1,4 +1,4 @@
-0.04
+0.04 2015-03-05T16:37:24+01:00
  - Add <?xml> header to XML document.
  - Add 04-map.t test.
  - Add Map::Tube::Singapore to SEE ALSO section in doc.
