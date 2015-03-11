@@ -8,4 +8,4 @@ use Test::Map::Tube 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-ok_map(Map::Tube::Bucharest->new);
+ok_map(Map::Tube::Bucharest->new, 'Test validity of map.');
