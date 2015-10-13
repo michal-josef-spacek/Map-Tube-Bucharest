@@ -3,7 +3,6 @@ use strict;
 use warnings;
 
 # Modules.
-use English;
 use Map::Tube::Bucharest;
 use Test::More tests => 4;
 use Test::NoWarnings;
