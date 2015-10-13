@@ -2,6 +2,7 @@
  - Add EXAMPLE4 to doc.
  - Add get_line_by_id() and get_line_by_name() methods to doc.
  - Add tests for get_line_by_id() and get_line_by_name() methods.
+ - Update to Map::Tube 3.03.
 
 0.06 2015-10-02T13:17:33+02:00
  - Add tests for get_node_by_id() and get_node_by_name() methods.
