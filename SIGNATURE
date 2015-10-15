@@ -14,17 +14,18 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 cf005f429e7f91d2126fb03a523348c2409d83ee Bucharest.pm
-SHA1 5847c69c70c691575af076a5705d26f004df2c71 Changes
+SHA1 2f5f89b16e0eff2f4b12a278bb79a52015639841 Bucharest.pm
+SHA1 57a48315342c806e7b0d851dbd8b0be5e526e47f Changes
 SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
 SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE.bsd
-SHA1 2a1afdafcf5b0a684cdb95064895d1558932fcfd MANIFEST
-SHA1 65c6bca444aa72416e6e3a0675f72e6dff7ffe79 META.yml
-SHA1 fa345dccb1f2f399bcdece8503a120e33f92809e Makefile.PL
-SHA1 d05f02b104562fea28431d2e8a302de36131d3a2 README
+SHA1 85239f8efcf165744861111f982385aaf4c695ad MANIFEST
+SHA1 5f8236595d78d89a951a19b55c718487188265ab META.yml
+SHA1 5a7dc8b484b64ad229c34d2d5a2590c35f618d2c Makefile.PL
+SHA1 8ec90731bac731612c1514227a8c4293a46d1e9e README
 SHA1 5c2758776ee58f6528d5d429c746c252230194fc examples/ex1.pl
 SHA1 12bb9b1743a767b76d43b18550a92a4ce6460528 examples/ex2.pl
 SHA1 49a0689091cb43ddeec24581d40cef2db6f90b68 examples/ex3.pl
+SHA1 013fc411839b35a63a37c52d07d528a3331fa2ed examples/ex4.pl
 SHA1 79ef13c7f0597d62beb55e2ac8705983d4490a51 images/ex3.png
 SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
 SHA1 d001b4b9a48395a8c4134b234a0e1789138427c5 inc/Module/Install/AuthorTests.pm
@@ -39,23 +40,27 @@ SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
 SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
 SHA1 343692673c1e07bfe4453c9376b6245918befe98 share/bucharest-map.xml
 SHA1 1635b1a4acefead67663346d5823944e3940d549 t/Map-Tube-Bucharest/01-use.t
-SHA1 1fcba3c847de35e4e3f7675e7a72ebd568fa1b1f t/Map-Tube-Bucharest/02-version.t
+SHA1 dccef0ae65c26cd82b58478fc7e08c7ec1d51d32 t/Map-Tube-Bucharest/02-version.t
 SHA1 aec24cb1c284d929fa1708430363baf3cb1ecdc4 t/Map-Tube-Bucharest/03-map.t
-SHA1 159e306b9e5224748421a4171041040895009b4e t/Map-Tube-Bucharest/04-get_node_by_id.t
-SHA1 e8ef2859a2147bdfb1fd21e550d53003c0c49fa0 t/Map-Tube-Bucharest/05-get_node_by_name.t
-SHA1 c2c5c51acc8526f8352d9a8079df7f4254145d7d t/Map-Tube-Bucharest/06-get_shortest_route.t
-SHA1 1087b4d7caea7150906582392ca3773e0e76fe06 t/Map-Tube-Bucharest/07-name.t
-SHA1 4f2d12e8454193c00385c7c5a8c445b10cab5b68 t/Map-Tube-Bucharest/08-xml.t
+SHA1 cdaa88f3d759e779661438f85f46b58b1a1b943a t/Map-Tube-Bucharest/04-get_line_by_id.t
+SHA1 d613dd56c9f4998ad2f1c3b83348a96e9f522fd7 t/Map-Tube-Bucharest/05-get_line_by_name.t
+SHA1 ca19a125387f549f8e157b6de1708f54155c6368 t/Map-Tube-Bucharest/06-get_lines.t
+SHA1 f852e4cc5aeaffde6a1022dbcdd8ba588905dcdb t/Map-Tube-Bucharest/07-get_node_by_id.t
+SHA1 23a0f3ad1cffcb2b40bd798d9415308dbe4c2c12 t/Map-Tube-Bucharest/08-get_node_by_name.t
+SHA1 e15de63cb4f2272db466bf8d2cc0af512371d03c t/Map-Tube-Bucharest/09-get_shortest_route.t
+SHA1 f632373eb8821cca9a9ce3ed7e3c72ca15b165fe t/Map-Tube-Bucharest/10-get_stations.t
+SHA1 1087b4d7caea7150906582392ca3773e0e76fe06 t/Map-Tube-Bucharest/11-name.t
+SHA1 4f2d12e8454193c00385c7c5a8c445b10cab5b68 t/Map-Tube-Bucharest/12-xml.t
 SHA1 745444d6f90c68e4854f85051900006cec8ab7e0 xt/Map-Tube-Bucharest/01-pod_coverage.t
 SHA1 77ded2751325d83c3083a849f35ca94fcf83b275 xt/Map-Tube-Bucharest/02-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWDmfPAAoJEJe+XXKaIuTlEjMH/RrUy4pioAnv9Kgeu5epb1nV
-OULIxgy5mHM1AMJ0c6Pna4D/DWo5J0m/3oXdGB1TVmmOQ7LRXpCavjva3E9Psaar
-Ac6EZcJR2DY8xz6EfLI4ITTKuS8iPG2XYJpbsNThIEP+kF4BAwjkyyR0VrW+yuUW
-XqdvkuTGtcvVzShNo/FRlArejATV7B++KmbEtThkOQBOICMh9r3Y0JW2t6msFaw3
-g9QeNCP4VyihVTlwkug/8XBHLVI8E2+tg6o9wmin7z9QPaOz8BUJ9piBkZsIOspv
-5C+A4TQLyEy35YghxZDqvp98V9hgZRV74UB0138wZmyuSqscZCgMZ85PM8bEO78=
-=47dw
+iQEcBAEBAgAGBQJWH5T/AAoJEJe+XXKaIuTlmjEH/28ib3GBxjCakaM4BCWgMr12
+/rRR1XMg95/Q3BuNsO4dM28XCfcBdcHyEKbzD1B+1MPa8BXIBlSXLK1kKXCnzeC5
+dnyfnGI1QVnJwcUJqPAXL7kmZ+3x7e+4NtxDtkRDUSASGDhgJVOfPzIcdkKyo65z
+lHZ/RjUvQ4FBkpGevAiECbja6Zu7fZQoTuKZyWo7PVvJnczwcyQmXsUCae2vcONd
+/E1GrdkH2zBdPFyK14hT6RYyPYUNklyNJ+veAD0tt1hcvCD+LGiaryme84tkfw0B
+o0G2rRw251HIE3oJq2lVWwq0rT4g6l8idAeFwe19tlmPlYHCXreSren7IKIXNTg=
+=kF3Z
 -----END PGP SIGNATURE-----
