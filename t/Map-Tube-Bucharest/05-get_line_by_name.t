@@ -3,19 +3,26 @@ use strict;
 use warnings;
 
 # Modules.
+use English;
 use Map::Tube::Bucharest;
 use Test::More tests => 4;
 use Test::NoWarnings;
 
 # Test.
 my $map = Map::Tube::Bucharest->new;
-my $ret = $map->get_line_by_name('foo');
-is($ret, undef, 'Get line for bad line name.');
+eval {
+	$map->get_line_by_name;
+};
+like($EVAL_ERROR, qr{^Map::Tube::get_line_by_name\(\): ERROR: Missing Line Name. \(status: 104\)},
+	'Missing line name.');
 
 # Test.
-$ret = $map->get_line_by_name;
-is($ret, undef, 'Missing line name.');
+eval {
+	$map->get_line_by_name('foo');
+};
+like($EVAL_ERROR, qr{^Map::Tube::get_line_by_name\(\): ERROR: Invalid Line Name \[foo\]. \(status: 105\)},
+	'Get line for bad line name.');
 
 # Test.
-$ret = $map->get_line_by_name('Linia M1');
+my $ret = $map->get_line_by_name('Linia M1');
 is($ret->id, 'M1', 'Get line for line name.');
