@@ -3,6 +3,7 @@
  - Add get_line_by_id() and get_line_by_name() methods to doc.
  - Add tests for get_line_by_id() and get_line_by_name() methods.
  - Add test for get_lines() method.
+ - Add tests for get_stations() method.
  - Improve description for get_lines() in doc.
  - Update to Map::Tube 3.03.
 

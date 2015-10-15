@@ -33,7 +33,8 @@ t/Map-Tube-Bucharest/06-get_lines.t
 t/Map-Tube-Bucharest/07-get_node_by_id.t
 t/Map-Tube-Bucharest/08-get_node_by_name.t
 t/Map-Tube-Bucharest/09-get_shortest_route.t
-t/Map-Tube-Bucharest/10-name.t
-t/Map-Tube-Bucharest/11-xml.t
+t/Map-Tube-Bucharest/10-get_stations.t
+t/Map-Tube-Bucharest/11-name.t
+t/Map-Tube-Bucharest/12-xml.t
 xt/Map-Tube-Bucharest/01-pod_coverage.t
 xt/Map-Tube-Bucharest/02-pod.t
