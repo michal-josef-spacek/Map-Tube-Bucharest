@@ -25,31 +25,28 @@ like($EVAL_ERROR, qr{^Map::Tube::get_stations\(\): ERROR: Invalid Line Name \[fo
 	'Invalid line name.');
 
 # Test.
-SKIP: {
-	skip "No order.", 1;
-# TODO Problem je v tom, ze tyhle stanice nejsou poporadku.
 my $ret_ar = $map->get_stations('Linia M1');
 is_deeply(
 	$ret_ar,
 	[
-		decode_utf8('Piața Victoriei (Linia M1, Linia M2)'),
-		'Basarab (Linia M1, Linia M4)',
-		'Eroilor (Linia M1, Linia M3)',
-		decode_utf8('Piața Unirii 1 (Linia M1, Linia M3)'),
-		'Nicolae Grigorescu (Linia M1, Linia M3)',
-		'Izvor (Linia M1, Linia M3)',
-		'Timpuri Noi (Linia M1, Linia M3)',
-		'Mihai Bravu (Linia M1, Linia M3)',
-		'Dristor 1 (Linia M1, Linia M3)',
 		'Dristor 2 (Linia M1)',
 		decode_utf8('Piața Muncii (Linia M1)'),
 		'Iancului (Linia M1)',
 		'Obor (Linia M1)',
 		decode_utf8('Ștefan cel Mare (Linia M1)'),
+		decode_utf8('Piața Victoriei (Linia M1, Linia M2)'),
 		'Gara de Nord (Linia M1)',
+		'Basarab (Linia M1, Linia M4)',
 		decode_utf8('Crângași (Linia M1)'),
 		'Petrache Poenaru (Linia M1)',
 		decode_utf8('Grozăvești (Linia M1)'),
+		'Eroilor (Linia M1, Linia M3)',
+		'Izvor (Linia M1, Linia M3)',
+		decode_utf8('Piața Unirii 1 (Linia M1, Linia M3)'),
+		'Timpuri Noi (Linia M1, Linia M3)',
+		'Mihai Bravu (Linia M1, Linia M3)',
+		'Dristor 1 (Linia M1, Linia M3)',
+		'Nicolae Grigorescu (Linia M1, Linia M3)',
 		'Titan (Linia M1)',
 		'Costin Georgian (Linia M1)',
 		'Republica (Linia M1)',
@@ -57,4 +54,3 @@ is_deeply(
 	],
 	"Get stations for line 'Linia M1'.",
 );
-};
