@@ -1,5 +1,6 @@
 0.08
  - Improve comment in tests.
+ - Rewrite XML map to new version without junctions.
 
 0.07 2015-10-15T13:55:29+02:00
  - Add EXAMPLE4 to doc.
