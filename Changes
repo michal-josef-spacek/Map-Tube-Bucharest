@@ -1,4 +1,4 @@
-0.08
+0.08 2015-10-23T10:20:03+02:00
  - Implement station order.
  - Improve comment in tests.
  - Rewrite XML map to new version with line IDs.
