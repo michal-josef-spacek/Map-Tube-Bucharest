@@ -187,10 +187,10 @@ EXAMPLE5
      map { print encode_utf8($_->name)."\n"; } @{$stations_ar};
 
      # Output:
-     # Usage: ex5.pl line
+     # Usage: __PROG__ line
 
      # Output with 'foo' argument.
-     # Map::Tube::get_stations(): ERROR: Invalid Line Name [foo]. (status: 105) file ex5.pl on line 20
+     # Map::Tube::get_stations(): ERROR: Invalid Line Name [foo]. (status: 105) file __PROG__ on line __LINE__
 
      # Output with 'Linia M4' argument.
      # Gara de Nord 2
