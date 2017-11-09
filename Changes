@@ -5,6 +5,7 @@
  - Update README file.
  - Update author name.
  - Update copyright years to 2017.
+ - Update to Map::Tube 3.37.
 
 0.08 2015-10-23T10:20:03+02:00
  - Implement station order.
