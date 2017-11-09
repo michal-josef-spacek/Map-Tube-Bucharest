@@ -2,6 +2,7 @@
  - Add EXAMPLE5 section to doc.
  - Update Module::Install to 1.18 version.
  - Update README file.
+ - Update author name.
 
 0.08 2015-10-23T10:20:03+02:00
  - Implement station order.

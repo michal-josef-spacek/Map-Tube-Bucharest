@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Interface to the Bucharest Metro Map.';
-author 'Michal Spacek <skim@cpan.org>';
+author 'Michal Josef Spacek <skim@cpan.org>';
 test_requires 'English' => 0;
 test_requires 'File::Object' => 0.08;
 test_requires 'Test::More' => 0;
