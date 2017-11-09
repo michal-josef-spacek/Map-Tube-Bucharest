@@ -1,5 +1,6 @@
 0.09
  - Add EXAMPLE5 section to doc.
+ - Update Module::Install to 1.18 version.
  - Update README file.
 
 0.08 2015-10-23T10:20:03+02:00
