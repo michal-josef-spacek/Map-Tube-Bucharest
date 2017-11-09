@@ -1,5 +1,6 @@
 0.09
  - Add EXAMPLE5 section to doc.
+ - Add test for ok_map_functions().
  - Fix author test dependencies.
  - Update Module::Install to 1.18 version.
  - Update README file.
