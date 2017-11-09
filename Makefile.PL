@@ -8,12 +8,12 @@ use inc::Module::Install;
 # Definition.
 abstract 'Interface to the Bucharest Metro Map.';
 author 'Michal Josef Spacek <skim@cpan.org>';
-test_requires 'English' => 0;
-test_requires 'File::Object' => 0.08;
-test_requires 'Test::More' => 0;
-test_requires 'Test::NoWarnings' => 0;
-test_requires 'Test::Pod' => 0;
-test_requires 'Test::Pod::Coverage' => 0;
+author_requires 'English' => 0;
+author_requires 'File::Object' => 0.08;
+author_requires 'Test::More' => 0;
+author_requires 'Test::NoWarnings' => 0;
+author_requires 'Test::Pod' => 0;
+author_requires 'Test::Pod::Coverage' => 0;
 install_share 'share';
 license 'bsd';
 license 'artistic_2';

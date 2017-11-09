@@ -1,5 +1,6 @@
 0.09
  - Add EXAMPLE5 section to doc.
+ - Fix author test dependencies.
  - Update Module::Install to 1.18 version.
  - Update README file.
  - Update author name.
