@@ -1,6 +1,7 @@
 0.09
  - Add EXAMPLE5 section to doc.
  - Add test for ok_map_functions().
+ - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Fix author test dependencies.
  - Update Module::Install to 1.18 version.
  - Update README file.
