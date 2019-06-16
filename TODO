@@ -1,6 +1,5 @@
 TODO
 ====
-2. TODO v testu get_stations() method.
 3.
 
 Applied
@@ -8,3 +7,6 @@ Applied
 1. Prvni verze.
    https://en.wikipedia.org/wiki/Bucharest_Metro
 OK [20141209] skim
+
+2. TODO v testu get_stations() method.
+OK [20190616] skim
