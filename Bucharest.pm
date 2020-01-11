@@ -34,6 +34,7 @@ Map::Tube::Bucharest - Interface to the Bucharest Metro Map.
 =head1 SYNOPSIS
 
  use Map::Tube::Bucharest;
+
  my $obj = Map::Tube::Bucharest->new;
  my $routes_ar = $obj->get_all_routes($from, $to);
  my $line = $obj->get_line_by_id($line_id);
