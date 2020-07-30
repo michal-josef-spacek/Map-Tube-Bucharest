@@ -8,7 +8,6 @@ use File::Share ':all';
 use Moo;
 use namespace::clean;
 
-# Version.
 our $VERSION = 0.11;
 
 # Get XML.
