@@ -2,6 +2,7 @@
  - Fix image name in doc.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Move bugtracker to github.
+ - Rename example files to better names.
  - Update Module::Install to 1.21 version.
 
 0.10 2020-01-12T00:11:37+01:00

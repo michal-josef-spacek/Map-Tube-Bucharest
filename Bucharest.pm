@@ -115,6 +115,8 @@ For more information about Bucharest Map, click L<here|https://en.wikipedia.org/
 
 =head1 EXAMPLE1
 
+=for comment filename=print_bucharest_route.pl
+
  use strict;
  use warnings;
 
@@ -135,6 +137,8 @@ For more information about Bucharest Map, click L<here|https://en.wikipedia.org/
 
 =head1 EXAMPLE2
 
+=for comment filename=print_bucharest_def_xml_file.pl
+
  use strict;
  use utf8;
  use warnings;
@@ -154,6 +158,8 @@ For more information about Bucharest Map, click L<here|https://en.wikipedia.org/
  # XML file: .*/bucharest-map.xml
 
 =head1 EXAMPLE3
+
+=for comment filename=print_bucharest_image.pl
 
  use strict;
  use warnings;
@@ -191,6 +197,8 @@ For more information about Bucharest Map, click L<here|https://en.wikipedia.org/
 
 =head1 EXAMPLE4
 
+=for comment filename=print_bucharest_lines.pl
+
  use strict;
  use warnings;
 
@@ -213,6 +221,8 @@ For more information about Bucharest Map, click L<here|https://en.wikipedia.org/
  # Linia M4
 
 =head1 EXAMPLE5
+
+=for comment filename=print_bucharest_line_stations.pl
 
  use strict;
  use warnings;
