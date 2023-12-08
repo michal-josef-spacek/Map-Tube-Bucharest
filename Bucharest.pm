@@ -183,8 +183,8 @@ For more information about Bucharest Map, click L<here|https://en.wikipedia.org/
 
 =begin html
 
-<a href="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-Bucharest/master/images/ex3.png">
-  <img src="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-Bucharest/master/images/ex3.png" alt="Metroul din București" width="300px" height="300px" />
+<a href="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-Bucharest/master/images/Bucharest.png">
+  <img src="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-Bucharest/master/images/Bucharest.png" alt="Metroul din București" width="300px" height="300px" />
 </a>
 
 =end html
