@@ -4,6 +4,7 @@
  - Move bugtracker to github.
  - Rename example files to better names.
  - Update Module::Install to 1.21 version.
+ - Update copyright years.
 
 0.10 2020-01-12T00:11:37+01:00
  - Update Module::Install to 1.19 version.
