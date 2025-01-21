@@ -225,6 +225,8 @@ EXAMPLE5
      # 1 Mai
      # Jiului
      # Parc Bazilescu
+     # Laminorului
+     # Străulești
 
 DEPENDENCIES
     File::Share, Map::Tube, Moo, namespace::clean.

@@ -289,6 +289,8 @@ Returns string with XML.
  # 1 Mai
  # Jiului
  # Parc Bazilescu
+ # Laminorului
+ # Străulești
 
 =head1 DEPENDENCIES
 

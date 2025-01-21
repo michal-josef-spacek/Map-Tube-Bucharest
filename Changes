@@ -1,5 +1,6 @@
 0.12
  - Fix multiply defined stations (GH#3).
+ - Fix output of example in doc.
  - Improve doc.
  - Update copyright years.
 
