@@ -1,4 +1,4 @@
-0.12
+0.12 2025-01-21T14:27:53+01:00
  - Fix multiply defined stations (GH#3).
  - Fix output of example in doc.
  - Improve doc.
